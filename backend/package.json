@@ -1,0 +1,22 @@
+{
+  "name": "petcarego-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/mysql": "^2.15.27",
+    "ts-node-dev": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "Andres Acosta",
+  "license": "ISC",
+  "description": "Sistema MVP funcional para una plataforma de agendamiento de servicios para mascotas",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}
